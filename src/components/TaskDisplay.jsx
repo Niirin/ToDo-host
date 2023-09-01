@@ -56,7 +56,7 @@ function TaskDisplay({task, onDelete, onEdit, onUpdate}) {
                     </div>
                     {showDisplayIcons &&(
                         <div className="icons">
-                            <img onClick={handleEditClick} src="/vite.svg" alt="edit" />
+                            <img onClick={handleEditClick} src="/edit.svg" alt="edit" />
                             <img onClick={() => setshowModal(true)} src="/delete_icon.png" alt="delete" />
                         </div>
                     )}                        
